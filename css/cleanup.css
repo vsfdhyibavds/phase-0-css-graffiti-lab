@@ -1,1 +1,67 @@
-/* write your override styles here */
+/* Custom styles for the project */
+
+/* Body styles */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Headings */
+h1 {
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin: 0.5em 0;
+}
+
+h2 {
+    font-size: 2em;
+    color: #34495e;
+    margin: 0.5em 0;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #7f8c8d;
+    margin: 0.5em 0;
+}
+
+/* Paragraphs */
+p {
+    line-height: 1.6;
+    margin: 1em 0;
+    font-size: 1em;
+}
+
+/* Links */
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Buttons */
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Utility classes */
+.margin-top {
+    margin-top: 1em;
+}
+
+.padding {
+    padding: 1em;
+}
